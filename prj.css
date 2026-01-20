@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Quicksand:wght@500;600&display=swap');
+
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.10);
+}
+
+.header .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0; 
+}
+
+.header-row{
+  height: 96.31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 35.2px;
+  line-height: 56.32px;
+  color: #E76F51;
+  white-space: nowrap;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 24px; 
+}
+
+.nav a{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;         
+  font-size: 17.6px;        
+  line-height: 28.16px;      
+  color: #3C2F2F;            
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: #E76F51;
+}
+
+.btn{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;  
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #fff;
+  text-decoration: none;
+
+  background: #E76F51;
+  border-radius: 50px;
+
+  min-width: 164.5px;
+  height: 49.59px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px; 
+}
+
+.btn:hover{
+  filter: brightness(0.95);
+}
+
+
+.footer{
+  background: #3C2F2F;
+  color: #EEEEEE;
+  padding: 80px 0 40px;  
+}
+
+.footer .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;           
+}
+
+.footer-row{
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.footer h3{
+  margin: 0 0 14px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38.4px;
+  color: #E76F51;
+}
+
+
+
+.hero__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hero__content{ position: absolute; inset: 0;  }
+
+
+.footer p,
+.footer li,
+.footer a{
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
+.footer-divider{
+  width: 1120px;
+  margin: 54px auto 18px;     
+  border-top: 1px solid #555555;
+}
+
+.footer-copy{
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 14.4px;
+  line-height: 23.04px;
+  color: #EEEEEE;
+}
+
+
+.menu-gird{
+    display: flex;
+}
